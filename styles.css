@@ -208,7 +208,7 @@
     font-size: 25px;
 }
 
-.ofimatica .equipo .ingles .aprendizaje .creatividad .critica .github{
+.ofimatica .equipo .ingles .aprendizaje .creatividad .critica .github .pagina{
     text-align: left;
     font-size: 15px;
 }
@@ -217,4 +217,30 @@
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
+}
+
+.descargable {
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: transparent;
+    font-weight: semibold;
+    color: darkgrey;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem rgb(33, 0, 247),
+        -2rem -.2rem 1rem rgb(11, 1, 77);
+}
+
+button:hover {
+    box-shadow: .2rem .2rem 1rem rgb(11, 1, 77),
+        -2rem -.2rem 1rem rgb(33, 0, 247);
+}
+
+button:active {
+    box-shadow: inset -2rem -.2rem 1rem rgb(11, 1, 77),
+        inset -.2rem -.2rem 1rem rgb(33, 0, 247);
 }

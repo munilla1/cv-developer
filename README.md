@@ -1,1 +1,1 @@
-# cv developer
+# curriculum

@@ -10,6 +10,7 @@
 }
 
 .contenedor_izquierda {
+    float: left;
     height: 842px;
     width: 310px;
     border: 1px;
@@ -174,11 +175,46 @@
 }
 
 .contenedor_derecha {
-    text-align: right;
     float: right;
-    margin-right: 1%;
+    width: 280px;
 }
 
 .formacion {
-    text-align: right;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.flecha {
+    float: left;
+    width: 11px;
+    height: 11px;
+    padding-right: 4px;
+}
+
+.primera_formacion {
+    text-align: left;
+    font-size: 15px;
+}
+
+.segunda_formacion {
+    text-align: left;
+    font-size: 15px;
+}
+
+.competencias {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.ofimatica .equipo .ingles .aprendizaje .creatividad .critica .github{
+    text-align: left;
+    font-size: 15px;
+}
+
+.datos {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
 }

@@ -223,24 +223,10 @@
     margin-top: 20px;
     margin-left: 50px;
     background-color: transparent;
-    font-weight: semibold;
-    color: darkgrey;
-    font-size: 1rem;
-    padding: 1rem 1.5rem;
+    color: black;
+    padding: 2px 5px;
     border: 2px solid;
     border-radius: .5rem;
     cursor: pointer;
-    transition: all 1s ease;
-    box-shadow: .5rem .5rem 1rem rgb(33, 0, 247),
-        -2rem -.2rem 1rem rgb(11, 1, 77);
-}
-
-button:hover {
-    box-shadow: .2rem .2rem 1rem rgb(11, 1, 77),
-        -2rem -.2rem 1rem rgb(33, 0, 247);
-}
-
-button:active {
-    box-shadow: inset -2rem -.2rem 1rem rgb(11, 1, 77),
-        inset -.2rem -.2rem 1rem rgb(33, 0, 247);
+    margin-left: 80px;
 }
